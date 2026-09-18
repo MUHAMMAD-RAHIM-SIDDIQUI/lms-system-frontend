@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-// shared wrapper so all login/signup pages look the same
 export default function AuthCard({ title, subtitle, children }) {
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 py-10">
